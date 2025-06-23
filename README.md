@@ -25,7 +25,7 @@ The total value of the money is then calculated automatically and displayed in r
 ## Tools & Teknologi
 - *Bahasa Pemrograman:* Python  
 - *Metode:* Yolov8n
-- *Visualisasi:* CV, Matplotlib, gradio
+- *Visualisasi:* CV, gradio
 - *Teknik:* Image preprocessing, feature extraction, classification, bounding box detection  
 
 ---
