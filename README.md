@@ -59,7 +59,7 @@ The total value of the money is then calculated automatically and displayed in r
   </p>
 - ### Confusion Matrix
   <p align="center">
-  <img src="![confusion_matrix](https://github.com/user-attachments/assets/e980016a-3f01-44d3-bc02-9cbbeefdd568)" width="500"/>
+  <img src="![image](https://github.com/user-attachments/assets/dda37187-9c6b-411e-8d4d-bc1de280dc9c)" width="500"/>
   </p>
 - ### Aplikasi
   <p align="center">
