@@ -1,0 +1,29 @@
+Deteksi dan Klasifikasi Uang Koin Menggunakan OpenCV Python
+
+
+Latar Belakang
+Seiring dengan kemajuan teknologi pengolahan citra digital, berbagai solusi otomatis berbasis komputer kini banyak diterapkan dalam kehidupan sehari-hari, 
+termasuk dalam mengenali objek fisik seperti uang koin. proses identifikasi nilai uang koin sering kali masih dilakukan secara manual. Hal ini tidak hanya menghabiskan waktu, tetapi juga rentan terhadap kesalahan manusia. 
+Penggunaan teknologi computer vision seperti OpenCV memberikan alternatif yang cepat, efisien, dan dapat diandalkan untuk mengenali dan mengklasifikasikan nominal uang 
+koin secara otomatis. Proyek ini bertujuan untuk mengembangkan sistem yang mampu mendeteksi dan mengklasifikasikan koin rupiah dengan nominal Rp100, Rp200, Rp500, dan Rp1000 
+menggunakan model YOLOv8 yang telah dilatih khusus, serta mengintegrasikannya dengan OpenCV untuk melakukan penghitungan total nilai secara otomatis dan menampilkan hasilnya 
+secara visual pada video streaming webcam. Total nilai uang kemudian dihitung secara otomatis dan ditampilkan secara real-time.
+
+Tahapan
+
+Tahapan proses dalam proyek ini dapat dijelaskan sebagai berikut:
+- Pengambilan Data Gambar
+ Gambar-gambar koin dari berbagai nominal disimpan dalam folder dataset yang telah dikelompokkan berdasarkan nilai koin.
+
+- Perhitungan Total Nilai
+ Semua koin yang dikenali akan dijumlahkan untuk menampilkan total nilai uang yang terdapat dalam gambar.
+
+- Visualisasi Hasil
+ Nilai masing-masing koin akan ditampilkan pada posisi koin tersebut, serta total uang akan ditampilkan pada satu frame hasil visualisasi akhir.
+
+
+Library yang Digunakan
+- cv2 → Untuk mengakses webcam, menampilkan video, menggambar kotak deteksi, dan teks.
+- ultralytics → Untuk memuat dan menjalankan model YOLOv8.
+
+
