@@ -54,7 +54,7 @@ The total value of the money is then calculated automatically and displayed in r
 ## 🚀 Hasil 
 - ### Grafik akurasi dan loss model
   <p align="center">
-   <img src="P_curve.png" width="350"/>
+   <img src="P_curve.png" width="400"/>
    <img src="results.png" width="500"/>
   </p>
  
