@@ -9,17 +9,35 @@ koin secara otomatis. Proyek ini bertujuan untuk mengembangkan sistem yang mampu
 menggunakan model YOLOv8 yang telah dilatih khusus, serta mengintegrasikannya dengan OpenCV untuk melakukan penghitungan total nilai secara otomatis dan menampilkan hasilnya 
 secara visual pada video streaming webcam. Total nilai uang kemudian dihitung secara otomatis dan ditampilkan secara real-time.
 
-Tahapan
+## 🎯 Tujuan
+- Mendeteksi dan mengklasifikasikan jenis koin.
+- Memberikan akurasi (keyakinan) pada hasil klasifikasi.
+- Memberikan informasi tentang jumlah total koin yang terdeteksi.
+- Menampilkan batas kotak visual untuk memudahkan pengguna mengenali koin yang terdeteksi.
+- Menerapkan sistem dalam aplikasi web yang mudah digunakan.
 
-Tahapan proses dalam proyek ini dapat dijelaskan sebagai berikut:
-- Pengambilan Data Gambar
- Gambar-gambar koin dari berbagai nominal disimpan dalam folder dataset yang telah dikelompokkan berdasarkan nilai koin.
+## 🛠 Alat & Teknologi
+- *Bahasa Pemrograman:* Python 
+- *Metode:* Yolov8n
+- *Visualisasi:* CV, Matplotlib, gradio
+- *Teknik:* Praproses gambar, ekstraksi fitur, klasifikasi, deteksi kotak pembatas 
 
-- Perhitungan Total Nilai
- Semua koin yang dikenali akan dijumlahkan untuk menampilkan total nilai uang yang terdapat dalam gambar.
+---
 
-- Visualisasi Hasil
- Nilai masing-masing koin akan ditampilkan pada posisi koin tersebut, serta total uang akan ditampilkan pada satu frame hasil visualisasi akhir.
+## 🚀 Fitur Sistem
+1. *Unggah Gambar:* Pengguna dapat mengunggah gambar koin.
+2. *Prediksi Koin:*
+- Jenis koin akan ditampilkan secara otomatis di layar.
+- Menampilkan tingkat akurasi.
+3. *Visualisasi Bouncing Box:*
+- Area koin ditandai dengan pembatas.
+- Label jenis koin dan tingkat kepercayaan ditampilkan dalam gambar.
+4. *Menjumlahkan koin yang terdeteksi:*
+- Misalnya: "Ada 5 koin dengan nilai 200, maka hasilnya adalah 1000."
+5. *Antarmuka Web Sederhana:*
+- Menampilkan hasil klasifikasi, tingkat kepercayaan, gambar asli + bounding box, dan penanganan.
+
+---
 
 
 Library yang Digunakan
