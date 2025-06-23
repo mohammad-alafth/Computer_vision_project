@@ -55,7 +55,7 @@ The total value of the money is then calculated automatically and displayed in r
 - ### Grafik akurasi dan loss model
   <p align="center">
    <img src="P_curve.png" width="350"/>
-   <img src="results.png" width="350"/>
+   <img src="results.png" width="500"/>
   </p>
  
 - ### Confusion Matrix
