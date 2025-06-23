@@ -54,9 +54,11 @@ The total value of the money is then calculated automatically and displayed in r
 ## 🚀 Hasil 
 - ### Grafik akurasi dan loss model
   <p align="center">
-  <img src="Gambar/VisualisasiValAcc.png" width="350"/>
-  <img src="Gambar/VisualisasiValLoss.png" width="350"/>
+   ![image](https://github.com/user-attachments/assets/cce49dd4-ef72-4782-9983-7462c51cb007)
+   ![image](https://github.com/user-attachments/assets/56df55a1-1f7b-4573-a95f-bb2d4148da16)  
   </p>
+ 
+
 - ### Confusion Matrix
   <p align="center">
   <img src="![image](https://github.com/user-attachments/assets/dda37187-9c6b-411e-8d4d-bc1de280dc9c)" width="500"/>
